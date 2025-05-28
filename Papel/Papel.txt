@@ -5,8 +5,6 @@ program DummyProgram;
 uses
     SysUtils;
 
-    
-
 begin
     Writeln('Este es un texto dummy en formato Delphi.');
     Writeln('Puedes usar este programa como base para tus proyectos.');
