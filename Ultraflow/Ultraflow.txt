@@ -1,0 +1,35 @@
+unit DummyUnit;
+
+interface
+
+uses
+    System.SysUtils, System.Classes;
+
+type
+    TDummyClass = class
+    private
+        FName: string;
+        FValue: Integer;
+    public
+        constructor Create(AName: string; AValue: Integer);
+        procedure DisplayInfo;
+        property Name: string read FName write FName;
+        property Value: Integer read FValue write FValue;
+    end;
+
+implementation
+
+{ TDummyClass }
+
+constructor TDummyClass.Create(AName: string; AValue: Integer);
+begin
+    FName := AName;
+    FValue := AValue;
+end;
+
+procedure TDummyClass.DisplayInfo;
+begin
+    Writeln(Format('Name: %s, Value: %d', [FName, FValue]));
+end;
+
+end.

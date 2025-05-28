@@ -1,0 +1,12 @@
+program DummyProgram;
+
+{$APPTYPE CONSOLE}
+
+uses
+    SysUtils;
+
+begin
+    Writeln('Este es un texto dummy en formato Delphi.');
+    Writeln('Puedes usar este programa como base para tus proyectos.');
+    Writeln('¡Buena suerte con tu desarrollo!');
+end.

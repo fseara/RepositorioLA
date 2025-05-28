@@ -1,0 +1,17 @@
+program DummyProgram;
+
+{$APPTYPE CONSOLE}
+
+uses
+    SysUtils;
+
+begin
+    try
+        Writeln('Hello, this is a dummy Delphi program.');
+        Writeln('It serves as a placeholder for future development.');
+        Writeln('Feel free to modify or expand this code.');
+    except
+        on E: Exception do
+            Writeln(E.ClassName, ': ', E.Message);
+    end;
+end.
