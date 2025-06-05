@@ -16,4 +16,5 @@ begin
         nombre: string;
     Readln(nombre);
     Writeln('Hola, ', nombre, '! Bienvenido al programa de ejemplo.');
+    Writeln('Hola, ', nombre, '! Bienvenido al programa de ejemplo.');
 end.
