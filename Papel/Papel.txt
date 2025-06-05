@@ -10,4 +10,12 @@ begin
     Writeln('Puedes usar este programa como base para tus proyectos.');
     Writeln('¡Buena suerte con tu desarrollo!');
     Showmessage('Prueba');
+
+    Writeln('Otra línea de ejemplo en Delphi.');
+    Writeln('El valor de Pi es: ', Pi:0:2);
+    Writeln('La fecha y hora actual es: ', DateTimeToStr(Now));
+    Writeln('Ingrese su nombre:');
+    var nombre: string;
+    Readln(nombre);
+    Writeln('Hola, ', nombre, ', bienvenido al programa.');
 end.
